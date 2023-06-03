@@ -179,6 +179,7 @@ print('我叫{},今年{}岁'.format(name, age))  # 也可以不带占位符
 print(f'我叫{name},今年{age}岁')
 
 # 格式化输出，带宽度和精度（可以使用%或者{}两种方式）
+# https://docs.python.org/zh-cn/3/tutorial/inputoutput.html#the-string-format-method
 print('%d' % 99)
 print('%10d' % 99)  # 10表示的是宽度
 print('%.3f' % 3.1415926)  # .3表示是小数点后三位
